@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin: 10px;
+  text-align: center;
+}
+.box1{
+  background-color: green;
+  transition: 2s ease-in 0.5s ;
+
+}
+.box1:hover{
+  width: 600px;
+
+}
+.box2{
+background-color: red;
+transition: 1s;
+
+}
+.box2:hover{
+  transform: translate(200px , 200px) rotate(90deg);
+
+
+}
+.box3{
+  background-color: lightblue;
+  transition: 1s;
+}
+.box3:hover{
+  transform: skew(20deg);
+}
+.box4{
+background-color: lightgreen;
+box-shadow: 2px 2px 5px green;
+}
+
+.mypic{
+  background-image: url(https://ghantee.com/wp-content/uploads/2023/12/sri-krishna-pic-insta-1024x1024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.mypic:hover{
+  opacity: 50%;
+  background: pink;
+
+}
